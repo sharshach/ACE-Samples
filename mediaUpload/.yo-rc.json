@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.19.0",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "media-upload",
+    "libraryId": "f4f0e05e-fd49-4440-9bec-638a81712c7a",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "media-upload",
+    "solutionShortDescription": "media-upload description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "adaptiveCardExtension",
+    "aceTemplateType": "Generic"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "media-upload-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/mediaUpload/MediaUploadAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/mediaUpload/MediaUploadAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MediaUploadAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/mediaUpload/loc/{locale}.js"
+  }
+}

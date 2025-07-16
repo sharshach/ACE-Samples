@@ -1,0 +1,68 @@
+{
+  "schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "text": "${title}",
+      "size": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "${subTitle}",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "TextBlock",
+      "text": "${status}",
+      "wrap": true,
+      "spacing": "Medium",
+      "weight": "Bolder"
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "VivaAction.SelectMedia",
+          "id": "uploadFile",
+          "title": "${uploadButtonText}",
+          "parameters": {
+            "mediaType": "Image",
+            "allowMultipleCapture": false,
+            "maxSizePerFile": 5242880,
+            "supportedFileFormats": "jpg jpeg png gif"
+          }
+        },
+        {
+          "type": "VivaAction.SelectMedia",
+          "id": "takePhoto",
+          "title": "${takePhotoButtonText}",
+          "parameters": {
+            "mediaType": "Image",
+            "allowMultipleCapture": false,
+            "maxSizePerFile": 5242880,
+            "supportedFileFormats": "jpg jpeg png gif"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "${processButtonText}",
+          "data": {
+            "id": "processFile",
+            "action": "processFile"
+          },
+          "isEnabled": "${hasFile}"
+        }
+      ],
+      "isVisible": "${hasFile}"
+    }
+  ]
+}

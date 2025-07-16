@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "SPFx: Serve (Local Workbench)",
+			"type": "shell",
+			"command": "gulp serve",
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": [
+				"$tsc",
+				"$eslint-stylish"
+			]
+		}
+	]
+}

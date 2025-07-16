@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "media-upload-client-side-solution",
+    "id": "f4f0e05e-fd49-4440-9bec-638a81712c7a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "media-upload description"
+      },
+      "longDescription": {
+        "default": "media-upload description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "media-upload Feature",
+        "description": "The feature that activates elements of the media-upload solution.",
+        "id": "2e19c9cd-01c5-4e1a-a647-9c2d211fca67",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/media-upload.sppkg"
+  }
+}

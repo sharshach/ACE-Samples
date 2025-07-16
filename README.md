@@ -1,2 +1,2 @@
-# ACE-Samples
-ACE Samples on Showcasing what's possible with SPFx ACE or sharing the Sample ACE code with others
+# ACE-SAMPLES
+> All the Code provided in this Repo is just as a reference, Use any part of this project if you understand it and its imlications properly. This code is not having any warrenty and neither linked to Microsoft.
